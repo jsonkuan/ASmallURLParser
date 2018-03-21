@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
+let query = "key1=value1&key2=value2"
+let url = "https://username:password@example.com/path?\(query)#anchor"
+
+let parser = URLParser()
+let urlComponents = parser.parse(url: url)
+
+print(" Scheme: \(urlComponents.scheme)\n User: \(urlComponents.user!)\n Password: \(urlComponents.pass!)\n Host: \(urlComponents.host)\n Path: \(urlComponents.path!)\n Query: \(urlComponents.query!)\n Fragment: \(urlComponents.fragment!)\n")
+
+
 

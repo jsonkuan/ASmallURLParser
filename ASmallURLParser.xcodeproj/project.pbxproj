@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		156D4097206147C9001236CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D4096206147C9001236CC /* main.swift */; };
+		156D409E206147E9001236CC /* QueryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D409D206147E9001236CC /* QueryItem.swift */; };
+		156D40A02061481C001236CC /* URLComponentz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D409F2061481C001236CC /* URLComponentz.swift */; };
+		156D40A220614842001236CC /* URLErrorz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D40A120614842001236CC /* URLErrorz.swift */; };
+		156D40A42061485B001236CC /* URLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D40A32061485B001236CC /* URLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		156D4093206147C9001236CC /* ASmallURLParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ASmallURLParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		156D4096206147C9001236CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		156D409D206147E9001236CC /* QueryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryItem.swift; sourceTree = "<group>"; };
+		156D409F2061481C001236CC /* URLComponentz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentz.swift; sourceTree = "<group>"; };
+		156D40A120614842001236CC /* URLErrorz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLErrorz.swift; sourceTree = "<group>"; };
+		156D40A32061485B001236CC /* URLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				156D4096206147C9001236CC /* main.swift */,
+				156D409D206147E9001236CC /* QueryItem.swift */,
+				156D409F2061481C001236CC /* URLComponentz.swift */,
+				156D40A120614842001236CC /* URLErrorz.swift */,
+				156D40A32061485B001236CC /* URLParser.swift */,
 			);
 			path = ASmallURLParser;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156D40A02061481C001236CC /* URLComponentz.swift in Sources */,
+				156D40A42061485B001236CC /* URLParser.swift in Sources */,
+				156D40A220614842001236CC /* URLErrorz.swift in Sources */,
 				156D4097206147C9001236CC /* main.swift in Sources */,
+				156D409E206147E9001236CC /* QueryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
